@@ -36,8 +36,8 @@ WORKLOADS = [200000, 400000, 600000, 800000, 1000000]  # Full range
 DEFAULT_WORKLOAD = 1000000
 
 
-VECTOR_FILE_PATH = "C:/Users/mrasheed/Desktop/Vector-Dataset/GIST_Dataset/gist-960-euclidean.hdf5"
-FIGURES_DIR = "C:/Users/mrasheed/Desktop/Poster_Diagrams"
+VECTOR_FILE_PATH = "C:/Users/uni/Desktop/Vector-Dataset/GIST_Dataset/gist-960-euclidean.hdf5"
+FIGURES_DIR = "C:/Users/uni/Desktop/Poster_Diagrams"
 REPLICATION_FACTOR = 3
 BLOCK_SIZE = 5   
 
@@ -2059,8 +2059,8 @@ size = comm.Get_size()
 # PROPERLY REALISTIC GEOSPATIAL CONFIGURATION
 # ===============================================================
 
-GEOSPATIAL_DATASET_PATH = "C:/Users/mrasheed/Desktop/Vector-Dataset/countries_dataset.shp"
-FIGURES_DIR = "C:/Users/mrasheed/Desktop/Geospatial_Results"
+GEOSPATIAL_DATASET_PATH = "C:/Users/uni/Desktop/Vector-Dataset/countries_dataset.shp"
+FIGURES_DIR = "C:/Users/uni/Desktop/Geospatial_Results"
 DEFAULT_NETWORK_SIZE = 500
 GEOSPATIAL_WORKLOADS = [50, 100, 150, 200, 258]
 
@@ -4722,5 +4722,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
